@@ -1,6 +1,7 @@
 import DevImg from "./DevImg";
 import Image from "next/image";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import "./style.css";
 
 import {
     User2,
@@ -120,10 +121,8 @@ const About = () => {
                 <div className="flex flex-col xl:flex-row">
                     {/* image */}
                     <div className="hidden xl:flex flex-1 relative">
-                        <DevImg
-                            containerStyles="bg-about_shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative"
-                            imgSrc="/hero/developer.jpg"
-                        />
+                        <DevImg containerStyles="bg-about_shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative"></DevImg>
+                        <div className="diveloper"></div>
                     </div>
                     {/* tabs */}
                     <div className="flex-1">

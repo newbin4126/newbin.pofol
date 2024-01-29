@@ -96,3 +96,7 @@
     .swiper-pagination-bullet {
     @apply bg-primary;
 }
+
+.developer {
+    background-image: url("public/hero/developer.jpg");
+}
